@@ -1,16 +1,15 @@
 The projects include the following:
-  a) fruit-deploy - Deploys all components to a minikube environment.
-  b) passionfruit - Deploys a simple pekko-http server with an http ingress.
-  c) papaya       - A simple pekko-http tls server with tls termination on the ingress.
+  1) fruit-deploy - Deploys all components to a minikube environment.
+  2) passionfruit - Deploys a simple pekko-http server with an http ingress.
+  3) papaya       - A simple pekko-http tls server with tls termination on the ingress.
   
 The main purpose of the project is to demonstrate the configuration and use of ingress-nginx within a kubernetes environment. The main features of the prototype project are using:
-   a) kubernetes via minikube
-   b) cert-manager for certificate generation
-   c) ingress-nginx for controller reverse proxy and ingress configuration management.
-   d) apache pekko-http as an http server
+   - kubernetes via minikube
+   - cert-manager for certificate generation
+   - ingress-nginx for controller reverse proxy and ingress configuration management.
+   - apache pekko-http as an http server
    
 The project deployment presumes the following:
-
 1) Clone fruit-deploy, passionfruit and papaya projects to the same directory.
 
 2) A running minikube environment - I have been using the following commands to start and restart minikube.
